@@ -6,23 +6,6 @@
   "autoMemoryEnabled": false,
   "autoCompactWindow": 200000,
   "permissions": {
-    "deny": [
-      "Edit(memory/**)",
-      "Edit(decisions/**)",
-      "Edit(rules/**)",
-      "Edit(skills/**)",
-      "Edit(topics/**)",
-      "Edit(exceptions/**)",
-      "Edit(logs/**)",
-      "Edit(policy.json)",
-      "Edit(.githooks/**)",
-      "Edit(.gitattributes)",
-      "Edit(.gitignore)",
-      "Edit(.workflow.json)",
-      "Edit(README.md)",
-      "Edit(~/.claude/**)",
-      "Edit(.claude/skills/**)"
-    ],
     "ask": [
       "Bash(git reset --hard)",
       "Bash(git reset --hard *)",
@@ -36,8 +19,6 @@
       "Bash(git branch -d *)",
       "Bash(git stash drop)",
       "Bash(git stash drop *)",
-      "Bash(git checkout --)",
-      "Bash(git checkout -- *)",
       "Bash(git rebase -i)",
       "Bash(git rebase -i *)"
     ]
